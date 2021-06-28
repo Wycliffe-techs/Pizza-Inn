@@ -69,12 +69,11 @@ function calctotalPrice(e) {
 
 
 $(document).ready(function () {
-    $("#delivery").submit(function () {
+$("#delivery").submit(function () {
 var name = $("input#name").val();
- var number = $("input#number").val();
-        var location = $("input#location").val();
-
-        alert("Hello " + name + ". Your order has been placed succesfully received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 180/= Thank you");
+var number = $("input#number").val();
+var location = $("input#location").val();
+alert("Hello " + name + ". Your order has been placed succesfully received and will be delivered to " +  location + " within one hour.The delivery will cost ksh 180/= Thank you");
       
     });
     

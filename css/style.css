@@ -6,3 +6,49 @@
     height:auto;    
 
 } 
+li a{
+  
+    padding-top: 10px;
+      margin-left: 100px; 
+      float: left;
+      color: #064420;
+          text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+      font-size: large;
+      font-weight: bold;
+      
+  
+  
+  }
+   ul li{
+       display: inline;
+       padding-left: 50px;
+  
+       
+       
+        }
+  
+        .navbar{
+          background-color:#FC5404;
+          color: #064420;
+            height: 55px;
+            width: auto;
+  
+            
+        }
+        
+           .active{
+         color: #064420;
+         height: 40px;
+            
+        }
+        a:hover{
+            background-color: #064420;
+            color: #e4efe7;
+            text-decoration: none;
+            height: 40px;
+         }
+         .footer{
+        background-color: ;
+         }
