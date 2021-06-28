@@ -19,25 +19,54 @@
         <p style="text-align: center;color:#064420;">Make your order today !</p>
     </div>
    </div>
-    <div class="row">
+    <div class="row" style="margin-left: 30px;">
         <div class="col-md-6">
      <img src="../images/pizza1.jpeg" alt="">
+     <p style="color: #064420;text-align: center;">Pizza Veg Extravaganza</p>
         </div>
         <div class="col-md-6" style="height: unset;">
      <img src="/images/pizza3.jpeg" alt="">
+     <p style="color: #064420;text-align: center;">Pizza Neapolitan Cheese</p>
         </div>
     </div>
-    <div class="row" style="margin-top: 30px;">
+    <div class="row" style="margin-top: 30px;margin-left: 30px;">
         <div class="col-md-6">
      <img src="/images/pizza2.jpeg" alt="" style="height:350px;width: 500px">
+     <p style="color: #064420;text-align: center;">Pizza Mexican Green Wave</p>
         </div>
         <div class="col-md-6">
      <img src="/images/pizza4.jpeg" alt=""style="height:350px;width: 500px;">
+     <p style="color: #064420;text-align: center;">Pizza Margherita extra</p>
         </div>
     </div>
+    <div class="Order"style="color:#064420;!important">
+      <h3 style="color: #064420;">Place Your Order Now!</h3>
+            <form action="" id="pizzainfo" >
+                <label for=""style="color:#064420;">Choose pizza size</label>
+                <select class="form-control" name="size" id="size">
+                    <option value="1200">Large @ ksh 1200</option>
+                    <option value="900">Medium @ ksh 900</option>
+                    <option value="600">Small @ ksh 600</option>
+                </select>
+                <label for=""style="color:#064420">Choose crust type</label>
+                <select class="form-control" name="" id="crust">
+                    <option value="230" name="crust">stuffed crust @ ksh230
+                    <option value="250" name="crust">Crispy @ ksh 250
+                    <option value="300" name="crust">Glutten free @ ksh 300
+                </select>
+                <label for="" style="color: #064420;">Choose toppings</label> <br>
+                <input value="150" type="checkbox" id="toppingone">Mushrooms
+                <input value="150" type="checkbox" id="toppingone">Sausage
+                <input value="150" type="checkbox" id="toppingone">Onions
+                <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+                <input value="150" type="checkbox" id="toppingone">Mozarella Cheese <br>
 
-   
-
-    
-  </div>
+                <label for="" style="color:#064420">Input Quantity</label>
+                <input class="form-control form-group" type="text" id="numberofpizza">
+                <button name="button" type="submit" id="submit" value="Check-Out"onclick="calctotalPrice()" style="background-color: #064420;">Submit</button>
+            </form>
+        </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="../script.js"></script>
+   </div>
   
