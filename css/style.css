@@ -1,9 +1,8 @@
 .background{
-    background-image:url("../images/pizza6.jpg");
+    background-color: #F98404;
     margin-top: 0px;
     background-repeat:no-repeat;
     background-size: cover;
-    height:500px;
-    
+    height:auto    
 
 } 
